@@ -8,44 +8,44 @@ function Footer() {
       
     </div>
 
-    <p className="mx-auto mt-6 max-w-md text-justify leading-relaxed text-gray-500">
+    {/* <p className="mx-auto mt-6 max-w-md text-justify leading-relaxed text-gray-500">
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt
       consequuntur amet culpa cum itaque neque. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda placeat mollitia natus eaque consequuntur exercitationem perferendis sapiente, dolore sint porro tempora cumque ullam fugit dolorum, quia quo adipisci eius facilis necessitatibus fuga? Rerum maxime vel harum beatae dicta aliquid quis iure voluptatem accusantium alias.
-    </p>
+    </p> */}
 
     <ul className="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           About
         </a>
       </li>
 
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           Careers
         </a>
       </li>
 
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           History
         </a>
       </li>
 
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           Services
         </a>
       </li>
 
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           Projects
         </a>
       </li>
 
       <li>
-        <a className="text-gray-700 transition hover:text-gray-700/75" href="/">
+        <a className="text-[#000000] transition hover:text-gray-700/75" href="/">
           Blog
         </a>
       </li>
