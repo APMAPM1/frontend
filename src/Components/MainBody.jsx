@@ -2,11 +2,11 @@ import React from "react";
 
 function MainBody() {
   return (
-    <div>
+    <div className="font-sans">
       <section className="bg-[#7CE6B7]">
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-xl text-center">
-            <h1 className="text-3xl font-extrabold sm:text-5xl text-[#19514F]">
+            <h1 className="text-3xl font-extrabold sm:text-5xl text-[#19514F] font-sans">
               Welcome to Jan Suvidha Portal
               <strong className="font-medium text-[#ffffff] sm:block">
                 One portal for all schemes

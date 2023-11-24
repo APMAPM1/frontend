@@ -52,7 +52,7 @@ function AadharVerification() {
       const data = await response.json();
       console.log(data);
       setDisplayResult(true);
-      // navigate("/documentupload", { state: { data: data } });
+      navigate("/documentupload", { state: { data: data } });
     } catch (error) {
       setMessage("OTP verification failed. Please try again.");
     }

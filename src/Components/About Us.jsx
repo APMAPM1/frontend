@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div>
+    <div className="font-sans">
       <section className="bg-[#ffffff]">
         <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
           <div className="mx-auto max-w-xl text-center">

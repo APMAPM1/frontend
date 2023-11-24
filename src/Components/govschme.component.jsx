@@ -1,6 +1,6 @@
 // src/components/Table.js
 import React from 'react';
-//import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Table() {
   const tableData = [
@@ -28,10 +28,10 @@ function Table() {
 
   return (
     <div className="container mx-auto p-4 font-sans">
-      <h2 className="text-4xl font-medium mb-4 text-center font-sans">Government registered schemes</h2>
-      {/* <Link to="/addscheme">
+      <h2 className="text-4xl font-medium mb-6 text-center font-sans">Government registered schemes</h2>
+      <Link to="/addscheme">
         <button className="bg-blue-500 text-white px-4 py-2 rounded">Add New Scheme</button>
-      </Link> */}
+      </Link>
       <ul className="w-full mt-4">
         <li className="flex text-white font-bold p-2 mb-2 bg-[#19514F]">
           <div className="flex-1">Scheme Id</div>
@@ -45,9 +45,9 @@ function Table() {
             <div className="flex-1 p-2">{item.schemename}</div>
             <div className="flex-1 p-2">{item.status}</div>
             <div className="flex-1 p-2">
-              {/* <Link to="/showdocuments">
+              <Link to="/showdocuments">
                 <button className="bg-blue-500 text-white px-2 py-1 rounded">View Applications</button>
-              </Link> */}
+              </Link>
             </div>
           </li>
         ))}

@@ -2,13 +2,13 @@ import React from "react";
 
 function StickyNavbar() {
   return (
-      <header class="bg-[#19514F] fixed top-0 left-0 right-0 text-white">
+      <header class="bg-[#19514F] fixed top-0 left-0 right-0 text-white font-sans">
         <nav
           class="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8"
           aria-label="Global"
         >
           <div class="flex lg:flex-1">
-            <a href="https://www.google.com" class="-m-1.5 p-1.5 text-[#ffffff] text-xl">
+            <a href="https://www.google.com" class="-m-1.5 p-1.5 text-[#ffffff] text-xl font-bold">
               JAN SUVIDHA PORTAL
             </a>
           </div>

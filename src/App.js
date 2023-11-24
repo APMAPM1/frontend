@@ -8,6 +8,7 @@ import Form from './Components/govschemegeneration';
 import Login from './Components/orgLogin';
 import Verification from './Components/varification.component';
 import AadharVerification from './Components/AadharVerification.component';
+import Userschemelist from './Components/userschmelist.component';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Login />
       <Verification />
       <AadharVerification />
+      <Userschemelist />
       
     </div>
   );

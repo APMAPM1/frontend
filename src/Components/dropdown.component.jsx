@@ -30,7 +30,7 @@ function CustomSelect({ listname, options, onSelectedChange, initialSelectedValu
   };
 
   return (
-    <div className="relative inline-block text-left">
+    <div className="relative inline-block text-left font-sans">
       <button
         onClick={toggleDropdown}
         type="button"
